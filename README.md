@@ -32,17 +32,17 @@ cd vtex-app-finder
 
 2. **Instale as dependências**
 ```bash
-npm install
+yarn install
 ```
 
 3. **Desenvolvimento**
 ```bash
-npm run tauri:dev
+yarn run tauri:dev
 ```
 
 4. **Build**
 ```bash
-npm run tauri:build
+yarn run tauri:build
 ```
 
 ## 📁 Estrutura do Projeto
@@ -127,10 +127,10 @@ git push origin feature/MinhaFeature
 
 ## 📝 Scripts Disponíveis
 
-- `npm run dev`: Inicia o ambiente de desenvolvimento Vite
-- `npm run build`: Build do frontend
-- `npm run tauri:dev`: Inicia a aplicação em modo desenvolvimento
-- `npm run tauri:build`: Gera o executável da aplicação
+- `yarn run dev`: Inicia o ambiente de desenvolvimento Vite
+- `yarn run build`: Build do frontend
+- `yarn run tauri:dev`: Inicia a aplicação em modo desenvolvimento
+- `yarn run tauri:build`: Gera o executável da aplicação
 
 ## ⚠️ Notas Importantes
 
