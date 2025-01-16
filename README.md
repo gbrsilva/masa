@@ -37,12 +37,12 @@ yarn install
 
 3. **Desenvolvimento**
 ```bash
-yarn run tauri:dev
+yarn tauri:dev
 ```
 
 4. **Build**
 ```bash
-yarn run tauri:build
+yarn tauri:build
 ```
 
 ## 📁 Estrutura do Projeto
@@ -127,10 +127,10 @@ git push origin feature/MinhaFeature
 
 ## 📝 Scripts Disponíveis
 
-- `yarn run dev`: Inicia o ambiente de desenvolvimento Vite
-- `yarn run build`: Build do frontend
-- `yarn run tauri:dev`: Inicia a aplicação em modo desenvolvimento
-- `yarn run tauri:build`: Gera o executável da aplicação
+- `yarn dev`: Inicia o ambiente de desenvolvimento Vite
+- `yarn build`: Build do frontend
+- `yarn tauri:dev`: Inicia a aplicação em modo desenvolvimento
+- `yarn tauri:build`: Gera o executável da aplicação
 
 ## ⚠️ Notas Importantes
 
