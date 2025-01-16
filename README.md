@@ -27,7 +27,7 @@ Uma ferramenta desktop desenvolvida para facilitar a busca de apps em múltiplas
 1. **Clone o repositório**
 ```bash
 git clone git@github.com:gbrsilva/masa.git
-cd vtex-app-finder
+
 ```
 
 2. **Instale as dependências**
