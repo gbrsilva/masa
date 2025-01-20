@@ -22,12 +22,12 @@ Uma ferramenta desktop desenvolvida para facilitar a busca de apps em múltiplas
 - VTEX CLI instalado globalmente
 - Git
 
+```
 ## 🚀 Começando
 
 1. **Clone o repositório**
 ```bash
 git clone git@github.com:gbrsilva/masa.git
-
 ```
 
 2. **Instale as dependências**
@@ -37,7 +37,7 @@ yarn install
 
 3. **Desenvolvimento**
 ```bash
-yarn tauri:dev
+yarn tauri dev
 ```
 
 4. **Build**
@@ -129,7 +129,7 @@ git push origin feature/MinhaFeature
 
 - `yarn dev`: Inicia o ambiente de desenvolvimento Vite
 - `yarn build`: Build do frontend
-- `yarn tauri:dev`: Inicia a aplicação em modo desenvolvimento
+- `yarn tauri dev`: Inicia a aplicação em modo desenvolvimento
 - `yarn tauri:build`: Gera o executável da aplicação
 
 ## ⚠️ Notas Importantes
