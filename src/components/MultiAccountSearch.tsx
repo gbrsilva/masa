@@ -135,7 +135,7 @@ export function MultiAccountSearch() {
     <SearchContainer>
       <h2>Buscar App em Múltiplas Accounts</h2>
       <Input>
-        <label>Nome do App</label>
+        <label>vendor.nome-do-app</label>
         <input
           value={appName}
           onChange={(e) => setAppName(e.target.value)}
@@ -148,7 +148,7 @@ export function MultiAccountSearch() {
         <TextArea
           value={accounts}
           onChange={(e) => setAccounts(e.target.value)}
-          placeholder="minha-loja1&#10;minha-loja2&#10;minha-loja3"
+          placeholder="account1&#10;account2&#10;account3"
         />
       </FormGroup>
 
